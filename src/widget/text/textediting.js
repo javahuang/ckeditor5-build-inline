@@ -33,12 +33,12 @@ export default class TextEditing extends Plugin {
 
 		editor.conversion.attributeToElement({
 			model: TEXT,
-			view: "strong",
+			view: "text",
 			upcastAlso: [
 				"b",
 				{
 					styles: {
-						"font-weight": "bold"
+						"font-weight": "233"
 					}
 				}
 			]
